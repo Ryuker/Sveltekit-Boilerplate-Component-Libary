@@ -1,20 +1,35 @@
 # BoilerPlate Theme Component Library
-To house often reused component code for building a basic theme. Still in experimental state.
+To house often reused component code for building basic theme boilerplates. Still in experimental state.
 
 - build in SvelteKit.
+- supports HTML, JQuery, (S)CSS and Svelte in single .svelte files.
 
 **To add components**
-- create a new file in src/lib/components/{folder of component type}. 
-- import it into src/routes/comp-sandbox.svelte
+- create a new file in 
+~~~ 
+src/lib/components/{folder of component type}.
+~~~ 
+- import it into 
+~~~ 
+src/routes/comp-sandbox.svelte
+~~~
 
-**To Run**
-- $npm install  < make sure to use node v 16.4.2 using nvm >
-- $ npm run dev
+## To Install
+~~~
+$npm install  < make sure to use node v 16.4.2 using nvm >
+~~~
 
-**to close**
-- ctrl + c
+## To Run
+~~~
+$ npm run dev
+~~~
 
-**Versions**
+## To Close
+~~~
+ctrl + c
+~~~
+
+## Versions
 - bootstrap 5.0.2
 - Font Awesome 6.1.1 
 

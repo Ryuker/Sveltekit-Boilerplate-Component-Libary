@@ -7,7 +7,7 @@
 </script>
 
 <header>
-  <h1>Suprevo Component Library</h1>
+  <h1>SvelteKit Component Library</h1>
 
   <!-- <h4>Current Page - {curPage != "" ? curPage[0].toUpperCase() + curPage.substring(1) : "Index"}</h4> -->
 
