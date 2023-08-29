@@ -1,0 +1,13 @@
+// my SASS styles
+@use "./_colors";
+
+
+$my-sass-color: blue;
+
+
+.wrapper {
+  h1 {
+    color: red;
+    background-color: green;
+  }
+}

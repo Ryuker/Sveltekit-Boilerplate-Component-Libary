@@ -1,0 +1,34 @@
+/* Variables and mixins declared here will be available in all other SCSS files */
+@import 'bootstrap/scss/functions';
+
+/* Override Bootstrap's variables here */
+
+@import 'bootstrap/scss/variables';
+
+@import 'bootstrap/scss/mixins';
+
+// @import 'slick-carousel/slick/slick-theme';
+// @import 'slick-carousel/slick/slick';
+
+/* font awesome */
+// @import './scss/vendors/font-awesome/functions';
+// @import './scss/vendors/font-awesome/variables';
+// @import './scss/vendors/font-awesome/mixins';
+// @import './scss/vendors/font-awesome/core';
+// @import './scss/vendors/font-awesome/fixed-width';
+// @import './scss/vendors/font-awesome/icons';
+// @import './scss/vendors/font-awesome/regular';
+// @import './scss/vendors/font-awesome/solid';
+
+
+// my custom stuff
+$my-global-color-var: red;
+
+@mixin my-global-mixin {
+	h4 {
+		background-color: greenyellow;
+		display: flex;
+
+		justify-content: center;
+	}
+}
