@@ -1,8 +1,5 @@
 # BoilerPlate Theme Component Library
-To house often reused component code for building a basic theme. 
-Still in experimental state.
-
-Test change
+To house often reused component code for building a basic theme. Still in experimental state.
 
 - build in SvelteKit.
 
@@ -16,7 +13,6 @@ Test change
 
 **to close**
 - ctrl + c
-
 
 **Versions**
 - bootstrap 5.0.2
